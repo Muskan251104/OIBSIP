@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Muskan's Portfolio</title>
+</head>
+<link rel="stylesheet" href="style.css">
+
+
+
+<body>
+    <header>
+        <nav>
+            <div class="left">Muskan's Portfolio</div>
+            <div class="right">
+                <ul>
+                    <li><a href="/">Home</a></li>
+                    <li><a href="#container-two">About</a></li>
+                    <li><a href="#container-three">Projects</a></li>
+
+                    <li><a href="#container-four">Contact Me</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <div class="container1">
+        <div class="name">Hey, My name is <span class="name1">Muskan</span> and I'm a fledging <br>
+            <span id="element"></span>
+        </div>
+        <div class="myphoto"><img src="muskan2.jpg"></div>
+    </div>
+    <div class="container2" id="container-two">
+        <div class="about">About <img src="about.png"></div>
+        <div class="line"></div>
+        <div class="intro">
+            <div class="intro1"><img src="favpng_web-development-web-design-website-world-wide-web-web-developer.png"
+                    alt=""></div>
+            <div class="intro2">
+
+                I'm a student pursuing Bachelor's of Technology in Computer Science from College of Engineering Roorkee.
+                <br><br><br>
+
+                Certain skills that I have include Programming in <span class="name1">C language</span>, Web Development
+                using
+                <span class="name1">HTML, CSS</span> and <span class="name1">Javascript</span>. Looking forward to learn
+                more about this technical world.
+                <br><br>
+
+                Other than this I am a Pizza lover, and fond of watching cartoons.
+            </div>
+
+
+        </div>
+        <div class="about2">
+            <div class="tab">
+                <button class="tablinks" onclick="openBox(event, 'Education')" id="defaultOpen">Education</button>
+                <button class="tablinks" onclick="openBox(event, 'Work Experience')">Work Experience</button>
+                <button class="tablinks" onclick="openBox(event, 'Skills')">Skills</button>
+            </div>
+
+          
+            <div id="Education" class="tabcontent">
+                <div class="educ">
+
+
+                    <div class="box1">
+                        <div class="vertical"></div>
+                        <div class="vertical"></div>
+                        <div class="vertical"></div>
+                    </div>
+                    <div class="box2">
+
+                        <div class="vertical">
+                            <img class="vertical-top" src="mlzs.png">
+                            <div class="vertical-title">High School</div>
+                            <div class="vertical-desc">&#8226;2020 <br> &#8226;Mount Litera Zee School Roorkee
+                                <br>&#8226;Grade-94.2% <br> &#8226;Board-CBSE<br> &#8226;School Rank-2nd
+                            </div>
+                        </div>
+                        <div class="vertical">
+                            <img class="vertical-top" src="mlzs.png">
+                            <div class="vertical-title">Intermediate</div>
+                            <div class="vertical-desc">&#8226;2022 <br> &#8226;Mount Litera Zee School Roorkee
+                                <br>&#8226;Grade-97.4% <br> &#8226;Board-CBSE <br> &#8226;School Rank-1st
+                            </div>
+                        </div>
+                        <div class="vertical">
+                            <img class="vertical-top" src="logo.png">
+                            <div class="vertical-title">Graduation-B.Tech(CSE)</div>
+                            <div class="vertical-desc">&#8226;2022-2026 <br> &#8226;College Of Engineering Roorkee <br>
+                                &#8226;Grade-8.1 sgpa(1st Semester)<br> &#8226;University-UTU</div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+            <div id="Work Experience" class="tabcontent">
+                <div class="internship">
+
+                    <div class="lgm">
+                        <div class="logo"><img src="lgm-logo.jpg" alt=""></div>
+                        <div class="desc"><span class="web-head">Web Developer Intern</span><br>
+                            LetsGrowMore · Internship <br>
+                            1 Jul 2023 - 31 Jul 2023 · 1 mo <br>
+                            Online <br>
+                            Task1: To-do List WebApp using HTML,CSS and JavaScript. <br>
+                            Task2: Calculator WebApp using HTML,CSS and JavaScript.</div>
+                    </div>
+                    <div class="oasis">
+                        <div class="logo"><img src="oasis-logo.jpg" alt=""></div>
+                        <div class="desc"><span class="web-head">
+                                Web development and Designing Intern</span><br>
+                            Oasis Infobyte · Internship <br>
+                            1 Jul 2023 - 5 Aug 2023 · 1 mo <br>
+                            Online <br>
+                            Task1: To Create a landing page using HTML and CSS. <br>
+                            Task2: To Create my portfolio using HTML and CSS.</div>
+                    </div>
+                </div>
+            </div>
+
+            <div id="Skills" class="tabcontent">
+                <div class="tech">
+                    <p>HTML</p>
+                    <div class="container">
+                        <div class="skills html">90%</div>
+                    </div>
+
+                    <p>CSS</p>
+                    <div class="container">
+                        <div class="skills css">80%</div>
+                    </div>
+
+                    <p>JavaScript</p>
+                    <div class="container">
+                        <div class="skills js">50%</div>
+                    </div>
+
+                    <p>C Language</p>
+                    <div class="container">
+                        <div class="skills c">80%</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container3" id="container-three">
+        <div class="project-head">PROJECTS</div>
+        <div class="proj-container">
+
+            <div class="card">
+                <img class="card-img-top" src="todo.png">
+                <div class="card-body">
+                    <h5 class="card-title">To-Do List</h5>
+                    <p class="card-text">In this task I have created a To-Do List WebApp by using HTML,CSS and
+                        JavaScript to organize and prioritise your tasks.</p>
+
+                </div>
+            </div>
+            <div class="card">
+                <img class="card-img-top" src="calci.png">
+                <div class="card-body">
+                    <h5 class="card-title">Calculator</h5>
+                    <p class="card-text"> In this Task I have created a Calculator Web app using HTML,CSS and
+                        JavaScript which can be used to perform basic mathematical operations.</p>
+
+                </div>
+            </div>
+            <div class="card">
+                <img id="landing-page" class="card-img-top" src="landingpage.png">
+                <div class="card-body" id="landing-body">
+                    <h5 class="card-title">Landing page</h5>
+                    <p class="card-text">In this project, I have created a #landingpage for a music player namely
+                        Beatz-On . I have tried to use my creativity to make the page look more Impressive.</p>
+
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <div class="container4" id="container-four">
+        <div class="containerr">
+            <div class="content">
+                <div class="left-side">
+                    <div class="address details">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <div class="topic">Address <img src="address.png" alt=""></div>
+                        <div class="text-one">Roorkee-247667</div>
+                        <div class="text-two">Uttarakhand</div>
+                    </div>
+                    <div class="phone details">
+                        <i class="fas fa-phone-alt"></i>
+                        <div class="topic">Phone <img src="phone.png" alt=""></div>
+                        <div class="text-one">+91 1234567890</div>
+                        <div class="text-two">+91 9090909090</div>
+                    </div>
+                    <div class="email details">
+                        <i class="fas fa-envelope"></i>
+                        <div class="topic">Email <img src="email.png" alt="">
+                        </div>
+                        <div class="text-one">xyz@gmail.com</div>
+                        <div class="text-two">abc@gmail.com</div>
+                    </div>
+                </div>
+                <div class="right-side">
+                    <div class="topic-text">Contact Me <img src="contact.png" alt=""></div>
+                    <p>If you have any work from me or any types of queries, you can send me message from here. It's my
+                        pleasure to help you.</p>
+                    <form action="#">
+                        <div class="input-box">
+                            <input type="text" placeholder="Enter your name">
+                        </div>
+                        <div class="input-box">
+                            <input type="text" placeholder="Enter your email">
+                        </div>
+                        <div class="input-box message-box">
+                            <input type="text" placeholder="Enter your message">
+                        </div>
+                        <div class="button">
+                            <input type="button" value="Send Now">
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['<i>Web </i>Developer.', 'Web Designer.', 'C Programmer.'],
+            typeSpeed: 50,
+        });
+        document.getElementById("defaultOpen").click();
+        function openBox(evt, boxName) {
+          
+            var i, tabcontent, tablinks;
+
+
+            tabcontent = document.getElementsByClassName("tabcontent");
+            for (i = 0; i < tabcontent.length; i++) {
+                tabcontent[i].style.display = "none";
+            }
+
+    
+            tablinks = document.getElementsByClassName("tablinks");
+            for (i = 0; i < tablinks.length; i++) {
+                tablinks[i].className = tablinks[i].className.replace(" active", "");
+            }
+
+            
+            document.getElementById(boxName).style.display = "block";
+            evt.currentTarget.className += " active";
+        }
+    </script>
+</body>
+
+</html>
